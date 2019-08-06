@@ -1,0 +1,10 @@
+@media(max-width:991.5px) {
+
+    .game {
+        margin-bottom: 30px;
+    }
+
+    .game-title {
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,162 @@
+/* font-family: 'Saira Stencil One',
+cursive;
+
+font-family: 'Chelsea Market',
+cursive;
+
+font-family: 'Montserrat',
+sans-serif;
+
+ */
+
+
+
+
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+li,
+li:hover {
+    list-style-type: none;
+}
+
+
+
+
+
+/* HEADER - START */
+
+header, body {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url('../img/dark-bg.png') no-repeat center / cover;
+
+
+}
+
+.nav-list {
+    display: flex !important;
+}
+
+.nav-item {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.navbar-link,
+.lang-choose {
+    display: inline-block;
+    color: #ccc;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Saira Stencil One',
+        cursive;
+}
+
+.navbar-link:hover {
+    color: #888888;
+}
+
+.navbar-link:after {
+    background-color: #888;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.navbar-link:hover:after,
+.navbar-link:focus:after {
+    width: 100%;
+}
+
+
+.header-text {
+    margin: auto;
+    margin-top: 30px;
+}
+
+.header-title {
+    font-size: 49px;
+    font-family: 'Saira Stencil One',
+    cursive;
+    color: #ffb600;
+}
+
+.header .line {
+    width: 20px;
+    border-bottom: 2px solid #ccc;
+    transition: 0.4s all;
+    margin-bottom: 45px;
+}
+
+.header:hover .line {
+    width: 100px;
+}
+
+.rows {
+    margin: auto;
+}
+
+.row-title {
+    font-size: 39px;
+    color:red;
+    font-family: 'Chelsea Market',
+    cursive;
+}
+
+
+.game {
+    margin-bottom: 30px;
+}
+
+.game:hover{
+    opacity: 0.8;
+}
+
+.game img {
+    width: 350px;
+    height: 195px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.game-title {
+    margin-left: 15px;
+    color: #f5b97b;
+      font-family: 'Saira Stencil One',
+      cursive;
+      font-weight: normal;
+      font-size: 28px;
+      margin-right: 30px;
+      margin-bottom: 45px;
+}
+
+.game-op {
+    color: #ffffff;
+    margin-bottom: 45px;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.grey {
+    color: #cccccc !important;    
+}
